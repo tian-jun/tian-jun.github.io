@@ -54,7 +54,7 @@ nav:
     - 2023:
       - essay/2023/01.md
     - 2022:
-      - essay/2022/13.md
+      - 六月: essay/2022/june.md
     - 2021:
       - 十月的北京: essay/2021/10.md
     - 2020:
@@ -64,25 +64,24 @@ nav:
   - 探索世界:
     - world/index.md
     - 影视:
-      - 天道: world/tiandao.md
-      - 请回答1988: world/1988.md
-      - 正阳门下: zhengyang.md
-      - 鸡毛飞上天: jimao.md
+      - 天道: world/moive/tiandao.md
+      - 请回答1988: world/moive/1988.md
+      - 正阳门下: world/moive/zhengyang.md
+      - 鸡毛飞上天: world/moive/jimao.md
       - 人世间: world/moive/renshijian.md
     - 音乐:
-      - 请不要担心: world/13.md
-      - Imagine-John: world/13.md
+      - 请不要担心: world/music/13.md
+      - Imagine-John: world//music/13.md
     - 书籍:
-      - 理想国: world/13.md
-      - 国富论: world/13.md
+      - 理想国: world/book/13.md
+      - 国富论: world/book/13.md
     - 流浪:
-      - 西藏自驾: world/xizang.md
-      - 色达自驾: world/seda.md
-      - 厦门游历: world/xiamen.md
-      - 山东游历: world/shandong.md
+      - 西藏自驾: world/tramp/xizang.md
+      - 色达自驾: world/tramp/seda.md
+      - 厦门游历: world/tramp/xiamen.md
+      - 山东游历: world/tramp/shandong.md
   - 认识自己:
     - me/index.md
-    - 个人简介: me/profile.md
     - 专业知识:
       - 基础课程: me/profession/basic.md
     - 常用工具:
@@ -96,14 +95,14 @@ nav:
   - 遇见你:
     - you/index.md
     - 并肩的人:
-      - 家人: you/family.md
-      - 朋友: you/friend.md
+      - 家人: you/us/family.md
+      - 朋友: you/us/friend.md
     - 我认识你，你不知道我: 
-      - 王小波: xiaobo.md
-      - 余华: yuhua.md
-      - 卡尔维诺: kaer.md
-      - 段永平: yongping.md
-      - 金庸: jinyong.md
+      - 王小波: you/them/xiaobo.md
+      - 余华: you/them/yuhua.md
+      - 卡尔维诺: you/them/kaer.md
+      - 段永平: you/them/yongping.md
+      - 金庸: you/them/jinyong.md
     
 # [Extensions]
 plugins:
