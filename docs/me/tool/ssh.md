@@ -1,33 +1,38 @@
-# ssh链接github
- `$ ssh-keygen -t ed25519 -C "juntian.job@gmail.com"`
-
-
-
-
-### ssh远程登录
-#### 密钥登陆
-赋予私钥文件仅本人可读权限
-	chmod 400 /Users/tianjun/Desktop/Science/密钥/john_tencent_03042022
-终端执行如下命令就可以登录了
-`ssh -i /Users/tianjun/Desktop/Science/密钥/john_tencent_03042022 ubuntu@82.157.237.55`
-#### 密码登陆
-用户：`ssh ubuntu@82.157.237.55`
-密码：`john0808,`
-⚠️云服务器密码登录和密钥登录是不能同时开启的，二者是冲突的。当开启一种登录方式，另一种会默认禁用，以提高安全性。所以服务器关联密钥后将不能再使用密码登录。说明： 服务器绑定密钥默认拒绝密码登录，您需要通过密钥登录。如需要允许密码登录，要修改配置文件/etc/ssh/sshd_config，
-	vim /etc/ssh/sshd_config
-键盘输入`i`
-PasswordAuthentication这项改为yes，将前面#号注释符取消。保存退出并重启ssh服务既可。重启sshd服务命令：systemctl restart sshd。
-### 进入base环境
-`bash`
-### 启动jupyter notebook
-```python
-jupyter notebook
+# ssh
+### [ssh与github](https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+1. `ls -al ~/.ssh`: to see if existing SSH keys are present
+2. `$ ssh-keygen -t ed25519 -C "juntian.job@gmail.com"`: Generating a new SSH key
+3. ` Enter a file in which to save the key (/Users/you/.ssh/id_algorithm): [Press enter]`:When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
+4. `eval "$(ssh-agent -s)"`:Adding SSH key to the ssh-agent
+5. `open ~/.ssh/config`: modify your ~/.ssh/config file to automatically load keys into the ssh-agent, and store passphrases in your keychain
 ```
-⚠️如果没有进入base环境，jupyter notebook会启动不成功
-### 端口映射
-在本地账户输入
-	ssh -L8888:localhost:8888 ubuntu@82.157.237.55
-⚠️如果ssh报错`Permission denied (publickey)`，命令行输入
-	ssh-add /Users/tianjun/Desktop/Science/密钥/john_tencent_03042022
-### 断开ssh链接
-	exit
+Host github.com
+User juntian.job@gmail.com
+Hostname ssh.github.com
+PreferredAuthentications publickey
+UseKeychain yes
+IdentityFile ~/.ssh/id_ed25519
+Port 443
+```
+6. `pbcopy < ~/.ssh/id_ed25519.pub`: 将 SSH 公钥复制到剪贴板
+7. `GitHub > settings > Access > SSH and GPG keys > New SSH key > 粘贴SSH公匙 > Add SSH key`:在GitHub上添加新的SSH key
+8. `ssh -T git@github.com`: test SSH
+
+
+### ssh远程登录服务器
+- 密钥登陆
+	- `chmod 400 /Users/tianjun/Desktop/Science/密钥/john_tencent_03042022`:赋予私钥文件仅本人可读权限
+	- `ssh -i /Users/tianjun/Desktop/Science/密钥/john_tencent_03042022 ubuntu@82.157.237.55`:登录
+- 密码登陆
+	- 用户：`ssh ubuntu@82.157.237.55`
+	- 密码：`john0808,`
+- 注意：云服务器密码登录和密钥登录是不能同时开启的，二者是冲突的。当开启一种登录方式，另一种会默认禁用，以提高安全性。所以服务器关联密钥后将不能再使用密码登录。说明： 服务器绑定密钥默认拒绝密码登录，您需要通过密钥登录。如需要允许密码登录，要修改配置文件/etc/ssh/sshd_config，
+	- `vim /etc/ssh/sshd_config`:Vim 打开sshd_config文件，键盘输入`i`，进入vim编辑器的输入模式
+	- PasswordAuthentication这项改为yes，将前面#号注释符取消。保存退出并重启ssh服务既可。
+	- `systemctl restart sshd`:重启ssd服务命令
+- 启动jupyter notebook
+	- `bash`:进入base环境,如果没有进入base环境，jupyter notebook会启动不成功
+	- `jupyter notebook`:启动jupyter notebook
+	- `ssh -L8888:localhost:8888 ubuntu@82.157.237.55`: 端口映射
+		- `ssh-add /Users/tianjun/Desktop/Science/密钥/john_tencent_03042022`: ⚠️如果ssh报错`Permission denied (publickey)`
+	- `exit`: 断开ssh链接

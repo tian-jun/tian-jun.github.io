@@ -1,10 +1,10 @@
-# 构建自己的网站
+# 构建自己的网页
 
 ## [我的网页](https://tian-jun.github.io)
 - https://tian-jun.github.io
 ## [mkdocs工具介绍](https://www.mkdocs.org/getting-started/)
 markdwon语法的初衷是希望人们更专注于内容而非格式，Mkdocs也是如此。可以用Django，用Flask生成更精美的网页，但没有必要。因此，选择Mkdocs来负责把文档生成为网页，自己可以则专注于内容，而非排版，布局，调色…
-## 安装需要的工具
+## 安装依赖的工具
 - `pip install python`:如果已经安装了python，忽略
 - `pip install mkdocs`: 安装Mkdocs
 - `pip install mkdocs-material`: 下载安装material主题
@@ -13,9 +13,9 @@ markdwon语法的初衷是希望人们更专注于内容而非格式，Mkdocs也
 - `mkdocs`
 ## 创建网页
 - `cd ~/Desktop/`:进入到桌面文件夹
-- `mkdocs new mysite`: 在桌面文件夹下创建`mysite`项目文件
+- `mkdocs new mysite`: 在桌面文件夹下创建`mysite`网页文件
 ## 使用Github Pages发布
-- 为网站创建仓库
+- 为网页创建仓库
 1. GitHub > New Repository 
 2. `<user>.github.io`:仓库的名称格式（用户名称包含大写字母，必须改写为小写字母。）
 3. 单击 Create repository
@@ -34,7 +34,7 @@ mkdir workflows
 cd workflows
 vim PublishMysite.yml
 ```
-- 键入PublishMysite.yml文件以下内容
+*键入PublishMysite.yml文件以下内容
 ```
 name: publishMysite
 on: # 在什么时候触发工作流

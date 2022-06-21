@@ -50,17 +50,17 @@ extra:
 # [Navigtion]
 nav:
   - 随笔:
-    - diary/index.md
+    - essay/index.md
     - 2023:
-      - diary/2023/01.md
+      - essay/2023/01.md
     - 2022:
-      - diary/2022/13.md
+      - essay/2022/13.md
     - 2021:
-      - 十月的北京: diary/2021/10.md
+      - 十月的北京: essay/2021/10.md
     - 2020:
-      - 四月的北京: diary/2020/04.md
+      - 四月的北京: essay/2020/04.md
     - 2019:
-      - 北漂: diary/2019/09.md
+      - 北漂: essay/2019/09.md
   - 探索世界:
     - world/index.md
     - 影视:
@@ -68,44 +68,43 @@ nav:
       - 请回答1988: world/1988.md
       - 正阳门下: zhengyang.md
       - 鸡毛飞上天: jimao.md
-      - 人世间: renshijian.md
+      - 人世间: world/moive/renshijian.md
     - 音乐:
       - 请不要担心: world/13.md
       - Imagine-John: world/13.md
     - 书籍:
       - 理想国: world/13.md
       - 国富论: world/13.md
-
     - 流浪:
-      - 西藏自驾: world/13.md
+      - 西藏自驾: world/xizang.md
+      - 色达自驾: world/seda.md
+      - 厦门游历: world/xiamen.md
+      - 山东游历: world/shandong.md
   - 认识自己:
     - me/index.md
     - 个人简介: me/profile.md
     - 专业知识:
       - 基础课程: me/profession/basic.md
     - 常用工具:
-      - MarkDown: me/tool/md.md
+      - MarkDown: me/tool/markdown.md
       - shell: me/tool/shell.md
       - MkDocs: me/tool/MkDocs.md
       - conda: me/tool/conda.md
       - vim: me/tool/vim.md
       - git: me/tool/git.md
       - VS code: me/tool/ssh.md
-    - 并肩的人:
-      - 朋友: me/friend.md
   - 遇见你:
-    - your/index.md
+    - you/index.md
+    - 并肩的人:
+      - 家人: you/family.md
+      - 朋友: you/friend.md
     - 我认识你，你不知道我: 
       - 王小波: xiaobo.md
       - 余华: yuhua.md
       - 卡尔维诺: kaer.md
       - 段永平: yongping.md
       - 金庸: jinyong.md
-      
-  
     
-
-
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
