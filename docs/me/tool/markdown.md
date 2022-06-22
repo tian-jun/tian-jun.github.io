@@ -1,10 +1,9 @@
-# MarkDown
-[官方教程](https://markdown.com.cn/basic-syntax/)
+# [MarkDown](https://markdown.com.cn/basic-syntax/)
 
 ## 图床
 ### github + PicGo解决方案
 - `brew install picgo --cask`: 下载PicGo
-    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`: 如果显示`command not found: brew`,运行次命令，下载安装brew
+    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`: 下载安装brew（如果不显示`command not found: brew`,忽略）
     - <https://support.apple.com/zh-cn/HT202491>: PicGo打不开的解决方法
 - 配置图床
     - 在GitHub上创建存储图片的仓库
