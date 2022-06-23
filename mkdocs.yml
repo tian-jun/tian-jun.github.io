@@ -1,6 +1,6 @@
 # [Info]
 site_name: 写给自己的博客和学习手稿 # 左上角标题
-site_url: https://github.com/juntianjob
+site_url: https://github.com/tian-jun
 site_author: 田俊
 site_description: 田俊的个人网站
 
@@ -33,7 +33,7 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 
 ## [top-right corner]
-repo_url: https://github.com/juntianjob # 右上角点击跳转的链接
+repo_url: https://github.com/tian-jun # 右上角点击跳转的链接
 repo_name: 田俊 # 右上角的名字
 ## [bottom-left corner]
 copyright: Copyright &copy; 2022 田俊 # 左下角的版权声明
@@ -44,7 +44,7 @@ extra:
       link: https://space.bilibili.com/117483104
       name: Bilibili | 落日余晖er # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/juntianjob
+      link: https://github.com/tian-jun
       name: GitHub | jun
 
 # [Navigtion]
