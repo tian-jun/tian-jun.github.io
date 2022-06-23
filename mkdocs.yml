@@ -91,7 +91,7 @@ nav:
       - conda: me/tool/conda.md
       - vim: me/tool/vim.md
       - git: me/tool/git.md
-      - VS code: me/tool/ssh.md
+      - VS code: me/tool/VScode.md
   - 遇见你:
     - you/index.md
     - 并肩的人:
