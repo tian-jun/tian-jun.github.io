@@ -65,7 +65,7 @@ nav:
     - world/index.md
     - 影视:
       - 电影:
-        - 美丽人生:world/moive/beautylife.md
+        - 美丽人生: world/moive/beautylife.md
       - 电视剧:
         - 天道: world/moive/tiandao.md
         - 请回答1988: world/moive/1988.md
