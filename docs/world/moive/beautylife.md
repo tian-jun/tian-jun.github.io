@@ -7,18 +7,14 @@
     - 1941年至1945年，纳粹对欧洲诸种族及政治群体展开迫害，犹太人遭到广泛系统性屠杀，欧洲2/3的犹太人死亡，近600万人。
 
 - ### 圭多第一次见到Princess（多拉）
-<img src="https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2020.59.06.png" width="500" height="313" align="bottom" />
-
+![](https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2020.59.06.jpg)
 - ### 圭多侧头看喜欢的人，被发现时  
-<img src="https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2018.43.22.png" width="500" height="313" align="bottom" />
-
+![](https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2018.43.22.png)
 - ### 圭多表白多拉 
-<img src="https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2021.04.00.png" width="500" height="913" align="bottom" /> 
+![](https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2021.04.00.png)
 
 - ### 一个谜语
-<img src="https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2019.15.54.png" width="500" height="313" align="bottom" /> 
-![]()
+![](https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2019.15.54.png)
 
 - ### 无论什么时候，都是想你
 ![](https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2021.02.14.png)
-<img src="https://raw.githubusercontent.com/tian-jun/photo/main/image/Screen%20Shot%202022-06-23%20at%2021.02.14.png" width="500" height="900" align="bottom" /> 
