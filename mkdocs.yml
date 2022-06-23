@@ -64,11 +64,14 @@ nav:
   - 探索世界:
     - world/index.md
     - 影视:
-      - 天道: world/moive/tiandao.md
-      - 请回答1988: world/moive/1988.md
-      - 正阳门下: world/moive/zhengyang.md
-      - 鸡毛飞上天: world/moive/jimao.md
-      - 人世间: world/moive/renshijian.md
+      - 电影:
+        - 美丽人生:world/moive/beautylife.md
+      - 电视剧:
+        - 天道: world/moive/tiandao.md
+        - 请回答1988: world/moive/1988.md
+        - 正阳门下: world/moive/zhengyang.md
+        - 鸡毛飞上天: world/moive/jimao.md
+        - 人世间: world/moive/renshijian.md
     - 音乐:
       - 请不要担心: world/music/13.md
       - Imagine-John: world//music/13.md
