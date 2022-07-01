@@ -64,6 +64,12 @@ nav:
       - 北漂: essay/2019/09.md
   - 探索世界:
     - world/index.md
+    - 美食:
+      - world/food/index.md
+      - 西藏自驾: world/tramp/xizang.md
+      - 色达自驾: world/tramp/seda.md
+      - 厦门游历: world/tramp/xiamen.md
+      - 山东游历: world/tramp/shandong.md
     - 影视:
       - 电影:
         - world/moive/index.md
@@ -76,15 +82,18 @@ nav:
         - 鸡毛飞上天: world/television/jimao.md
         - 人世间: world/television/renshijian.md
     - 音乐:
+      - world/music/index.md
       - 请不要担心: world/music/dontworry.md
       - Imagine: world//music/imagine.md
     - 书籍:
+      - world/book/index.md
       - 233个国家和地区: world/book/state.md
       - 世界历史: world/book/history.md
       - 中国地理: world/book/china.md
       - 理想国: world/book/13.md
       - 国富论: world/book/13.md
     - 流浪:
+      - world/tramp/index.md
       - 西藏自驾: world/tramp/xizang.md
       - 色达自驾: world/tramp/seda.md
       - 厦门游历: world/tramp/xiamen.md
@@ -109,10 +118,10 @@ nav:
     - 我认识你，你不知道我: 
       - 王小波: you/them/xiaobo.md
       - 余华: you/them/yuhua.md
+      - 莫言: you/them/moyan.md
       - 卡尔维诺: you/them/kaer.md
       - 段永平: you/them/duanyongping.md
       - 金庸: you/them/jinyong.md
-    
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
