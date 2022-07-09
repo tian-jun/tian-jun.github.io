@@ -74,6 +74,9 @@ nav:
       - 电影:
         - world/moive/index.md
         - 美丽人生: world/moive/beautylife.md
+        - 寻梦环游记: world/moive/xunmenghuanyouji.md
+        - 野草莓: world/moive/yecaomei.md
+        - 万箭穿心: world/moive/wanjianchuanxin.md
       - 电视剧:
         - world/television/index.md
         - 天道: world/television/tiandao.md
