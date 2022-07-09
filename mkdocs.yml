@@ -66,10 +66,10 @@ nav:
     - world/index.md
     - 美食:
       - world/food/index.md
-      - 西藏自驾: world/tramp/xizang.md
-      - 色达自驾: world/tramp/seda.md
-      - 厦门游历: world/tramp/xiamen.md
-      - 山东游历: world/tramp/shandong.md
+      - 家里的菜: world/food/xizang.md
+      - 苍蝇馆子: world/tramp/seda.md
+      - 一些小吃: world/tramp/xiamen.md
+      
     - 影视:
       - 电影:
         - world/moive/index.md
