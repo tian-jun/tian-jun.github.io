@@ -2,15 +2,14 @@
 
 ## 图床
 ### github + PicGo解决方案
-- `brew install picgo --cask`: 下载PicGo
-    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`: 下载安装brew（如果不显示`command not found: brew`,忽略）
-    - <https://support.apple.com/zh-cn/HT202491>: PicGo打不开的解决方法
+- 下载PicGo：`brew install picgo --cask`
+    - 下载安装brew：`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` （如果不显示`command not found: brew`,忽略）
+    - PicGo打不开的解决方法：<https://support.apple.com/zh-cn/HT202491>: 
 - 配置图床
     - 在GitHub上创建存储图片的仓库
     - 生成token
     - 在PicGo里填写相应信息，点击保存即可。
     - 将需要加入到MarkDown文件中的图片拖拽到PicGo，即可生成该图片的超链接
-
 ## 文字
 - `~~删除线~~`这就是 ~~删除线~~ (使用波浪号)
 - `*斜体* ` *斜体* 
@@ -71,3 +70,35 @@ Emoji 支持表情符号，你可以用系统默认的 Emoji 符号（ Windows �
 ###### 六级标题使用6个
 最多支持六级标题
 ```
+## 显示数学公式
+- 使用[mathjax](https://mathjax-chinese-doc.readthedocs.io/en/latest/#)工具
+- 在需要编写数学公式的文件末尾粘贴如下代码
+```
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+```
+- 平方
+    - 代码
+`$a^2 + b^2 = c^2$`: 如果左右两边是两个`$$`，则居中对齐
+- 效果
+$a^2 + b^2 = c^2$
+- 根号
+    - 代码：`$\sqrt{2}$`，
+    - 效果 $\sqrt{2}$
+## 更多的数学编写方式Google搜索mathjax symbols 
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
