@@ -1,12 +1,11 @@
-# tian-jun.github.io
-个人网站的源代码文件，和网站上的内容文件
+# 个人网页
+本仓库包含个人网站的源代码文件，和网站上的内容文件。
 ### 使用工具
-#### 生成
 - MkDocs
+    - 主题：MkDocs-Material
 - python
-#### 主题
-- MkDocs-Material
-#### 发布
-- GitHub Pages
-#### [教程](https://tian-jun.github.io/me/tool/MkDocs/):
-- https://tian-jun.github.io/me/tool/MkDocs/
+- GitHub page
+### 网址 
+https://tian-jun.github.io
+#### [教程](https://tian-jun.github.io/computer/tool/MkDocs/):
+- https://tian-jun.github.io/computer/tool/MkDocs/
