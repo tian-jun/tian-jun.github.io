@@ -67,9 +67,9 @@ nav:
   - 关于计算机:
     - computer/index.md
     - 工具使用:
+      - MarkDown: computer/tool/markdown.md
       - MkDocs搭建个人网页: computer/tool/mkdocs.md
       - SSH: computer/tool/ssh.md
-      - MarkDown: computer/tool/markdown.md
       - shell: computer/tool/shell.md
       - conda: computer/tool/conda.md
       - vim: computer/tool/vim.md
