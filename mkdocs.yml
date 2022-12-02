@@ -51,6 +51,8 @@ extra:
 nav:
   - 生活随笔:
     - essay/index.md
+    - 转载文章:
+      - essay/transmit/limu.md
     - 2023:
       - essay/2023/01.md
     - 2022:

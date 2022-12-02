@@ -61,14 +61,14 @@ jobs: # 工作流的具体内容
 - 把所有文件加入到暂存区：`git add .`
 - 提交：`git commit`
 - 推送到origin（tian-jun.github.io）仓库：`git push -u origin main`
-- 设置网址发布的链条 
+- 设置网址发布的资源库 
 GitHub > Repository > Settings > Pages > Source > gh-pages > Click Save
 - 等待几分钟[查看网页](https://tian-jun.github.io/)
     - 网页地址就是仓库名称`https://tian-jun.github.io`
 
 6. 其他发布方式
 - 本地发布
-  - 进入网页文件：`cd mysite`
+  - 进入网页文件：`cd tian-jun.github.io`
   - 通过本地端口发布网站（仅可在本地浏览）：`mkdocs serve`
   - 编辑了文件，实时更新到网站上
   - 键盘按`control+C`退出
