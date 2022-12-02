@@ -64,7 +64,20 @@ nav:
       - 北漂: essay/2019/09.md
   - 关于计算机:
     - computer/index.md
+    - 工具使用:
+      - MkDocs: computer/tool/mkdocs.md
+      - SSH: computer/tool/ssh.md
+      - MarkDown: computer/tool/markdown.md
+      - shell: computer/tool/shell.md
+      - conda: computer/tool/conda.md
+      - vim: computer/tool/vim.md
+      - git: computer/tool/git.md
+      - VS code: computer/tool/VScode.md
   - 关于音乐:
+    - 基础乐理: music/theory.md
+    - 唱歌练习: music/exercise.md
+    - 吉他练习: music/guitar.md
+    - 收藏音乐: music/favorite.md
     - music/index.md
   - 关于我:
     - me/index.md
